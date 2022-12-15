@@ -1,11 +1,12 @@
 # Jack Hangen #
 
-<h3>Fourth year data science and political science student at Quinnipiac University. Looking to purse a masters degree while living in Connecticut</h3>
+<h4>Fourth year data science and political science student at Quinnipiac University. Looking to purse a masters degree while living in Connecticut</h4>
 
 
 
 ## Things I code with ##
 
+<p>
 <img alt="markdown" src="https://img.shields.io/badge/-Markdown-5849BE?style=flat-square&logo=Markdown&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
 <img alt="R" src="https://img.shields.io/badge/-R-8DD6F9?style=flat-square&logo=R&logoColor=white" /> 
@@ -14,6 +15,7 @@
 <img alt="mysql" src="https://img.shields.io/badge/-mysql-F7B93E?style=flat-square&logo=mysql&logoColor=black" />
 <img alt="Jupyter" src="https://img.shields.io/badge/-Jupyter-FB542B?style=flat-square&logo=Jupyter&logoColor=white" />
 <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
 
 ## Things I am learning ##
 
