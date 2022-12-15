@@ -30,6 +30,10 @@
 </p>
 
 
+## Recent Breakdown (Last 7 Days) ## 
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@466c5821-f145-459e-8c21-988bf653cc2a/fa88683f-5f4f-4a22-ab4e-ad8b92b33a64.png" /></a>
+
+
 ## Current Projects ##
 
 * Creating a personal website
@@ -40,7 +44,7 @@
 ### Contact me ###
 
 
-* Website : <a herf = www.placeholder.com>www.placeholder.com</a>
+* Website : <a herf = johnhangen.github.io>johnhangen.github.io</a>
 
 * Email : <a herf = jthangen@gmail.com>jthangen@gmail.com</a>
 
