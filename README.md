@@ -29,7 +29,12 @@
   <img alt="Scikit-learn" src="https://img.shields.io/badge/-Scikit learn-DD0031?style=flat-square&logo=Scikit-learn&logoColor=white" />
 </p>
 
-<figure><embed src="https://wakatime.com/share/@466c5821-f145-459e-8c21-988bf653cc2a/1e70d1ef-b495-4d10-986a-17364088915e.svg"></embed></figure>
+
+## Current Projects ##
+
+* Creating a personal website
+* Titanic ML Project
+* Snake in C++
 
 
 ### Contact me ###
