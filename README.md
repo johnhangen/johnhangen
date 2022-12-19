@@ -33,6 +33,16 @@
 ## Recent Breakdown (Last 7 Days) ## 
 
 <!--START_SECTION:waka-->
+
+```text
+Python           6 hrs 1 min     ████████▓░░░░░░░░░░░░░░░░   34.11 %
+Jupyter          4 hrs 4 mins    █████▓░░░░░░░░░░░░░░░░░░░   23.08 %
+R                2 hrs 51 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.21 %
+Markdown         1 hr 9 mins     █▓░░░░░░░░░░░░░░░░░░░░░░░   06.52 %
+JavaScript       56 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.35 %
+JSON             41 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.95 %
+```
+
 <!--END_SECTION:waka-->
 
 ## Current Projects ##
