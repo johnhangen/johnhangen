@@ -3,7 +3,6 @@
 <h4>Fourth year data science and political science student at Quinnipiac University. Looking to purse a masters degree while living in Connecticut</h4>
 
 
-
 ## Things I code with ##
 
 <p>
@@ -15,6 +14,7 @@
 <img alt="mysql" src="https://img.shields.io/badge/-mysql-F7B93E?style=flat-square&logo=mysql&logoColor=black" />
 <img alt="Jupyter" src="https://img.shields.io/badge/-Jupyter-FB542B?style=flat-square&logo=Jupyter&logoColor=white" />
 <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+<img alt="Scala" src="https://img.shields.io/badge/-Scala-DD0031?style=flat-square&logo=Scala&logoColor=white" />
 </p>
 
 ## Things I am learning ##
