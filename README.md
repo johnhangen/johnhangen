@@ -31,8 +31,9 @@
 
 
 ## Recent Breakdown (Last 7 Days) ## 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@466c5821-f145-459e-8c21-988bf653cc2a/fa88683f-5f4f-4a22-ab4e-ad8b92b33a64.png" /></a>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ## Current Projects ##
 
