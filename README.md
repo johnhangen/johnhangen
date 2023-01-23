@@ -32,18 +32,6 @@
 
 ## Recent Breakdown (Last 7 Days) ## 
 
-<!--START_SECTION:waka-->
-
-```text
-Python     5 hrs 41 mins   ███████████████████░░░░░░   76.46 %
-Markdown   46 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.53 %
-CSV        43 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.84 %
-Bash       7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.68 %
-Text       5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.29 %
-JSON       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
-```
-
-<!--END_SECTION:waka-->
 
 ## Current Projects ##
 
