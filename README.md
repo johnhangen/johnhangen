@@ -29,10 +29,6 @@
   <img alt="Scikit-learn" src="https://img.shields.io/badge/-Scikit learn-DD0031?style=flat-square&logo=Scikit-learn&logoColor=white" />
 </p>
 
-
-## Recent Breakdown (Last 7 Days) ## 
-
-
 ## Current Projects ##
 
 * Creating a personal website
