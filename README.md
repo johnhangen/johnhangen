@@ -50,6 +50,10 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 
 <!--START_SECTION:waka-->
 
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ## Current Projects ##
