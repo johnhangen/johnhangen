@@ -1,21 +1,21 @@
 # Jack Hangen #
 
-### 👋 Welcome to my GitHub profile! 
+### 👋 Welcome to my GitHub profile! ###
 I'm a passionate data science enthusiast and a current master's student at Georgia Tech, where I'm exploring the fascinating intersection of data science and behavioral economics.
 
-### 💻 Data Science Advocate: 
+### 💻 Data Science Advocate: ###
 I'm a dedicated advocate for harnessing the power of data to drive meaningful insights and real-world impact. From data collection and preprocessing to advanced analytics and machine learning, I'm constantly honing my skills to extract actionable knowledge from complex datasets.
 
-### 🚀 Open to Collaboration: 
+### 🚀 Open to Collaboration: ###
 I believe in the power of collaboration to push the boundaries of knowledge. Whether you're interested in exploring innovative data-driven solutions, conducting behavioral experiments, or just geeking out about data, feel free to reach out! Let's connect and create something impactful together.
 
-### 🌟 Continuous Learning: 
+### 🌟 Continuous Learning: ###
 In this rapidly evolving field, I'm committed to lifelong learning. I'm constantly seeking new challenges, experimenting with cutting-edge tools and techniques, and staying up-to-date with the latest developments in data science and behavioral economics.
 
-### 📊 Skills: 
+### 📊 Skills: ###
 Data Analysis, Machine Learning, Python, R, Behavioral Economics, Data Visualization, A/B Testing, Statistical Modeling, and more.
 
-### 🔗 Connect with Me: 
+### 🔗 Connect with Me: ###
 Let's connect and embark on a journey of discovery and innovation! Feel free to reach out for collaboration, discussions, or just a friendly chat.
 
 ## Things I code with ##
