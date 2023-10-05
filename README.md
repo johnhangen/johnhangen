@@ -51,10 +51,10 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Python       5 hrs 32 mins   █████████████████▓░░░░░░░   70.30 %
+Python       6 hrs 9 mins    ███████████████████▓░░░░░   78.04 %
 Docker       52 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.11 %
-Markdown     39 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 %
-GDScript3    38 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.17 %
+GDScript3    25 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.39 %
+Markdown     16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.39 %
 Text         7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.67 %
 ```
 
