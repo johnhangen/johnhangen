@@ -51,11 +51,11 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Python       4 hrs 35 mins   ██████████████░░░░░░░░░░░   56.07 %
-HTML         3 hrs 17 mins   ██████████░░░░░░░░░░░░░░░   40.09 %
-CSS          8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.73 %
-Docker       4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.99 %
-Markdown     2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 %
+Python       5 hrs 36 mins   ███████████████▒░░░░░░░░░   61.78 %
+HTML         3 hrs 17 mins   █████████░░░░░░░░░░░░░░░░   36.17 %
+CSS          8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
+Markdown     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 %
+Assembly     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 %
 ```
 
 <!--END_SECTION:waka-->
