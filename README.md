@@ -51,11 +51,9 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-C++          3 hrs 17 mins   ██████████████████████▒░░   89.19 %
-Python       14 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.42 %
-CMake        5 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.51 %
-Markdown     3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-ObjectiveC   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
+C++          3 hrs 17 mins   ████████████████████████▒   97.17 %
+CMake        5 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.73 %
+ObjectiveC   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 %
 ```
 
 <!--END_SECTION:waka-->
