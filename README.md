@@ -51,10 +51,9 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Python   5 hrs 50 mins   █████████████████████████   99.54 %
-CSV      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.27 %
+Python   5 hrs 50 mins   █████████████████████████   99.63 %
+CSV      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
 Git      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 %
-Other    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 ```
 
 <!--END_SECTION:waka-->
