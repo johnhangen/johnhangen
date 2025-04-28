@@ -51,10 +51,7 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Text     52 mins         ███████████████▒░░░░░░░░░   60.67 %
-SQL      27 mins         ████████░░░░░░░░░░░░░░░░░   31.51 %
-Python   3 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.10 %
-JSON     3 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
