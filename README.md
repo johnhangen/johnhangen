@@ -51,9 +51,9 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown   1 hr 10 mins    ███████████████████████▒░   93.02 %
-Java       5 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.93 %
-XML        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+Text       1 hr 46 mins    █████████████░░░░░░░░░░░░   52.46 %
+Other      1 hr 20 mins    ██████████░░░░░░░░░░░░░░░   39.76 %
+Markdown   15 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.79 %
 ```
 
 <!--END_SECTION:waka-->
