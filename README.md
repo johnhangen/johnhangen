@@ -51,9 +51,7 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Text       1 hr 46 mins    █████████████░░░░░░░░░░░░   52.46 %
-Other      1 hr 20 mins    ██████████░░░░░░░░░░░░░░░   39.76 %
-Markdown   15 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.79 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
