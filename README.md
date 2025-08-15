@@ -51,9 +51,7 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Python       12 mins         ██████████████████████▒░░   89.52 %
-Bash         1 min           ██▒░░░░░░░░░░░░░░░░░░░░░░   09.77 %
-Git Config   0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.70 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
