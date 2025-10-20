@@ -51,7 +51,9 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Python     1 hr 49 mins    ███████████████████████▒░   93.07 %
+Markdown   4 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.11 %
+CSV        3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.83 %
 ```
 
 <!--END_SECTION:waka-->
