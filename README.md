@@ -51,8 +51,7 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown   0 secs          ██████████████████░░░░░░░   72.32 %
-Python     0 secs          ███████░░░░░░░░░░░░░░░░░░   27.68 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
