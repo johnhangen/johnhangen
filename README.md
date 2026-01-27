@@ -51,9 +51,11 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-Python     29 mins         █████████████████████████   99.51 %
-Markdown   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.26 %
-Other      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 %
+Python       3 hrs 4 mins    ██████████████████████▒░░   89.00 %
+Other        16 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.76 %
+YAML         4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.13 %
+TOML         1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.72 %
+Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.39 %
 ```
 
 <!--END_SECTION:waka-->
