@@ -51,10 +51,7 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-YAML         1 hr 3 mins     █████████████████▓░░░░░░░   70.66 %
-JavaScript   26 mins         ███████▒░░░░░░░░░░░░░░░░░   29.24 %
-Markdown     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
-CSS          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
+YAML   13 mins         █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
