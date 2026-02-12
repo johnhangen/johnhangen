@@ -51,7 +51,9 @@ Let's connect and embark on a journey of discovery and innovation! Feel free to 
 <!--START_SECTION:waka-->
 
 ```txt
-YAML   8 mins          █████████████████████████   100.00 %
+YAML    8 mins          ████████████████████████▓   98.26 %
+Other   0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.93 %
+Bash    0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.81 %
 ```
 
 <!--END_SECTION:waka-->
