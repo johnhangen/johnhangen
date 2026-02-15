@@ -1,13 +1,19 @@
 # Jack Hangen #
 
-Hey, I'm Jack 👋
+## Hey, I'm Jack 👋
+
 I studied data science at Quinnipiac and got my MS in Computer Science from Georgia Tech. I like building things that learn — mostly RL agents and ML models, but I'm always poking around with something new.
+
 📍 Connecticut · 🌐 jackhangen.com
 
-Some projects I'm proud of
+## Some projects I'm proud of
+
 🎮 BREAKOUT — Deep Q-network that learns to play Atari Breakout
+
 🐦 Bird_API — Bird species classifier using transfer learning
+
 ✍️ TextStyleTransferRNN — RNN that learns to mimic different writing styles
+
 🕹️ PPO — Proximal Policy Optimization from scratch
 
 ## Things I code with ##
@@ -62,4 +68,5 @@ Bash     0 secs          ░░░░░░░░░░░░░░░░░░�
 * Email : <a href="jthangen@gmail.com">jthangen@gmail.com</a>
 
 * Linkedin : <a href="https://www.linkedin.com/in/jack-hangen">https://www.linkedin.com/in/jack-hangen</a>
+
 
