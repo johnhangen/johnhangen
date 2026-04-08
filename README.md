@@ -49,10 +49,10 @@ I studied data science at Quinnipiac and got my MS in Computer Science from Geor
 <!--START_SECTION:waka-->
 
 ```txt
-Python     42 mins               ███████████████████████▓░   94.29 %
-Markdown   1 min                 █░░░░░░░░░░░░░░░░░░░░░░░░   03.93 %
-Other      0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.65 %
-HTML       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
+Python     48 mins               ███████████████████████▓░   94.89 %
+Markdown   1 min                 █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 %
+Other      0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.48 %
+HTML       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
 ```
 
 <!--END_SECTION:waka-->
