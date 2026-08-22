@@ -9,7 +9,7 @@ emit to pick it.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any, List, Optional
+from typing import Any, List, Optional, Sequence
 
 #: Semantic tag on every option, one-hot encoded in the observation.
 OPTION_KINDS = (
@@ -35,12 +35,22 @@ OPTION_KIND_INDEX = {k: i for i, k in enumerate(OPTION_KINDS)}
 
 @dataclass
 class Option:
+    """One legal choice.
+
+    ``card_id`` and ``vector`` are what make an option *readable*: an agent
+    seeing slot 27 needs to know whether it means "pay 2 seeds" or "take the
+    fish die".  Options that refer to a card expose it through ``card_id``;
+    the rest describe themselves with a short numeric ``vector`` (food spent,
+    food gained, the habitat, ...) that the observation encoder copies in.
+    """
+
     action_id: int
     kind: str
     label: str
     payload: Any = None
     card_id: Optional[int] = None
     value: float = 0.0
+    vector: Optional[Sequence[float]] = None
 
     def __post_init__(self) -> None:
         if self.kind not in OPTION_KIND_INDEX:

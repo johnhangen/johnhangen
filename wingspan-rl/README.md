@@ -128,7 +128,7 @@ either way, it just sees fewer no-choice steps.
 | `opponents` | 52 | per opponent: birds by habitat, eggs, food, hand, points |
 | `bonus` | 32 | which bonus cards you hold |
 | `decision` | 20 | what you are being asked, and whether it is your turn |
-| `options` | 1160 | 40 option slots × (kind, value, referenced card) |
+| `options` | 1160 | 40 option slots × (kind, value, referenced card or descriptor) |
 
 Card features (43 per card) are static: points, cost by food type, wild slots,
 habitats, nest, egg capacity, wingspan, predator/passerine flags, power timing
@@ -225,12 +225,12 @@ wingspan_rl/
   render.py        text rendering         cli.py      demo/benchmark/play
   data/birds.json  the generated 170-card deck
 tools/generate_birds.py   regenerates the deck deterministically
-tests/                    78 tests: rules, powers, scoring, envs, agents
+tests/                    79 tests: rules, powers, scoring, envs, agents
 examples/                 rollout, PPO training, self-play
 ```
 
 ```bash
-python -m pytest            # 78 tests, ~1s
+python -m pytest            # 79 tests, ~1s
 ```
 
 *Wingspan is designed by Elizabeth Hargrave and published by Stonemaier Games.

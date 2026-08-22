@@ -30,6 +30,7 @@ from .constants import (
     MAX_HAND,
     MAX_OPTIONS,
     NEST_BY_NAME,
+    N_HABITAT,
     N_ACTIONS,
     N_FOOD,
     N_ROUNDS,
@@ -407,7 +408,9 @@ class WingspanGame:
             return False
         options = [
             Option(0, "habitat", HABITAT_NAMES[h], payload=h,
-                   value=EGG_COST_BY_COLUMN[board.next_column(h)])
+                   value=EGG_COST_BY_COLUMN[board.next_column(h)],
+                   vector=[1.0 if int(h) == i else 0.0 for i in range(N_HABITAT)]
+                   + [board.row_size(h) / 5.0])
             for h in habitats
         ]
         habitat = yield from self._ask(
@@ -418,7 +421,9 @@ class WingspanGame:
             yield from self._spend_egg(player, f"pay 1 egg to play {card.name}")
         payments = enumerate_payments(board.food, card.costs, limit=MAX_OPTIONS)
         options = [
-            Option(0, "payment", self._payment_label(p), payload=p) for p in payments
+            Option(0, "payment", self._payment_label(p), payload=p,
+                   value=sum(p), vector=[n / 3.0 for n in p])
+            for p in payments
         ]
         payment = yield from self._ask(
             player, "play_pay", f"pay for {card.name}", options, default=None
@@ -455,7 +460,9 @@ class WingspanGame:
     ) -> Generator[Decision, Any, Food]:
         foods = list(allowed) if allowed is not None else list(Food)
         options = [
-            Option(0, "food", FOOD_NAMES[f], payload=f, value=int(f)) for f in foods
+            Option(0, "food", FOOD_NAMES[f], payload=f, value=int(f),
+                   vector=[1.0 if int(f) == i else 0.0 for i in range(N_FOOD)])
+            for f in foods
         ]
         food = yield from self._ask(player, "choose_food", prompt, options, default=foods[0])
         return food
@@ -496,10 +503,15 @@ class WingspanGame:
                  else feeder.available_faces())
         if not faces:
             return False
-        options = [
-            Option(0, "die", "+".join(FOOD_NAMES[f] for f in DIE_FACES[face]), payload=face)
-            for face in faces
-        ]
+        options = []
+        for face in faces:
+            gained = [0.0] * N_FOOD
+            for food in DIE_FACES[face]:
+                gained[int(food)] += 1.0
+            options.append(
+                Option(0, "die", "+".join(FOOD_NAMES[f] for f in DIE_FACES[face]),
+                       payload=face, value=len(DIE_FACES[face]), vector=gained)
+            )
         face = yield from self._ask(player, "take_die", prompt, options)
         if face is None:
             return False
@@ -525,7 +537,8 @@ class WingspanGame:
             if board.total_food() == 0 or not board.birds_with_egg_space(self.cards):
                 break
             options = [
-                Option(0, "food", f"spend 1 {FOOD_NAMES[Food(i)]}", payload=Food(i))
+                Option(0, "food", f"spend 1 {FOOD_NAMES[Food(i)]}", payload=Food(i),
+                       vector=[1.0 if j == i else 0.0 for j in range(N_FOOD)])
                 for i in range(N_FOOD)
                 if board.food[i] > 0
             ]

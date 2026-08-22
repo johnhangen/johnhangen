@@ -268,11 +268,14 @@ class ObservationEncoder:
                 w.buf[at + option.kind_index] = 1.0
                 w.buf[at + N_OPTION_KINDS] = 1.0
                 w.buf[at + N_OPTION_KINDS + 1] = option.value / 5.0
+                start = at + N_OPTION_KINDS + 2
                 if option.card_id is not None:
-                    start = at + N_OPTION_KINDS + 2
                     w.buf[start:start + OPTION_CARD_FEATURES] = self.option_matrix[
                         option.card_id
                     ]
+                elif option.vector is not None:
+                    values = list(option.vector)[:OPTION_CARD_FEATURES]
+                    w.buf[start:start + len(values)] = values
         w.pos = self.size
         return w.buf
 
