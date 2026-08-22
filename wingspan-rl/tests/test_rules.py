@@ -37,6 +37,8 @@ def test_setup_gives_every_player_five_tokens_and_one_bonus_card():
     for board in game.state.players:
         assert len(board.hand) + board.total_food() == 5
         assert len(board.bonus_cards) == 1
+        # setup hands out one token of each food type, never two of a kind
+        assert max(board.food) <= 1
 
 
 def test_action_value_grows_with_the_row():
@@ -82,7 +84,7 @@ def test_a_bird_cannot_be_played_without_enough_eggs():
     place(game, 0, Habitat.FOREST, forest[0].id, eggs=0)
     board.hand = [forest[1].id]
     board.food = [5, 5, 5, 5, 5]
-    assert game._playable_habitats(board, forest[1]) == [
+    assert game.playable_habitats(board, forest[1]) == [
         h for h in forest[1].habitats if h is not Habitat.FOREST
     ]
 

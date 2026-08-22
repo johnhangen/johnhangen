@@ -172,13 +172,14 @@ and power kind.
 ## Baselines
 
 `GreedyAgent` is a tuned heuristic — it plays birds early, lays eggs late, and
-spends its most abundant food first. It is the default opponent.
+spends its most abundant food first. It is the default opponent and wins
+96% of two-player games against random play.
 
 ```
 $ python -m wingspan_rl.cli benchmark --agents greedy,random --games 100
 100 games, 2 players
-  seat 0 ( greedy): wins    93  mean  62.79  sd 11.34  max 89
-  seat 1 ( random): wins     7  mean  36.65  sd 10.86  max 62
+  seat 0 ( greedy): wins    96  mean  62.68  sd 11.57  max 89
+  seat 1 ( random): wins     4  mean  37.05  sd 10.28  max 59
 ```
 
 Two greedy agents against each other land around 60 points a game, which is in
@@ -196,6 +197,8 @@ The example wraps the env in sb3-contrib's `ActionMasker` and trains
 
 * `examples/random_rollout.py` — drive the raw engine and render a game.
 * `examples/selfplay_aec.py` — self-play loop over the AEC env.
+* `examples/evaluate.py` — win rate and mean score of a saved model against
+  both baselines.
 
 ## Command line
 
@@ -222,12 +225,12 @@ wingspan_rl/
   render.py        text rendering         cli.py      demo/benchmark/play
   data/birds.json  the generated 170-card deck
 tools/generate_birds.py   regenerates the deck deterministically
-tests/                    75 tests: rules, powers, scoring, envs, agents
+tests/                    78 tests: rules, powers, scoring, envs, agents
 examples/                 rollout, PPO training, self-play
 ```
 
 ```bash
-python -m pytest            # 75 tests, ~1s
+python -m pytest            # 78 tests, ~1s
 ```
 
 *Wingspan is designed by Elizabeth Hargrave and published by Stonemaier Games.

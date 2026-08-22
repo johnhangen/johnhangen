@@ -215,7 +215,7 @@ class ObservationEncoder:
                 card = self.cards[card_id]
                 w.put_block(self.card_matrix[card_id])
                 affordable = bool(enumerate_payments(board.food, card.costs, limit=1))
-                playable = bool(game._playable_habitats(board, card))
+                playable = bool(game.playable_habitats(board, card))
                 w.put(1.0 if affordable else 0.0, 1.0 if playable else 0.0)
             else:
                 w.pos += CARD_FEATURES + 2

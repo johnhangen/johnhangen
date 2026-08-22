@@ -251,7 +251,12 @@ class WingspanGame:
                 break
             board.hand.remove(card_id)
             self.state.discard.append(card_id)
-            food = yield from self._choose_food(board.index, "gain 1 food from the supply")
+            # Setup hands out one token of each food type, so a type already
+            # taken is no longer on offer.
+            remaining = [f for f in Food if board.food[int(f)] == 0]
+            food = yield from self._choose_food(
+                board.index, "gain 1 food from the supply", allowed=remaining
+            )
             board.gain_food(food)
         self._note(f"P{board.index} keeps {len(board.hand)} cards, "
                    f"{board.total_food()} food")
@@ -325,7 +330,7 @@ class WingspanGame:
         board = self.state.board(player)
         options: List[Option] = []
         for index, card_id in enumerate(board.hand[:MAX_HAND]):
-            if self._playable_habitats(board, self.cards[card_id]):
+            if self.playable_habitats(board, self.cards[card_id]):
                 options.append(
                     Option(
                         action_id=ACTION_PLAY_BIRD_BASE + index,
@@ -353,12 +358,13 @@ class WingspanGame:
         payload = yield Decision(player=player, kind="main", prompt=prompt, options=options)
         return by_payload[payload]
 
-    def _playable_habitats(
+    def playable_habitats(
         self,
         board: PlayerBoard,
         card: BirdCard,
         habitat_filter: Optional[Habitat] = None,
     ) -> List[Habitat]:
+        """Habitats where ``board`` could legally play ``card`` right now."""
         if not enumerate_payments(board.food, card.costs, limit=1):
             return []
         eggs = board.total_eggs()
@@ -386,7 +392,7 @@ class WingspanGame:
             options = [
                 Option(0, "play_bird", f"play {self.cards[c].name}", payload=c, card_id=c)
                 for c in board.hand[:MAX_HAND]
-                if self._playable_habitats(board, self.cards[c], habitat_filter)
+                if self.playable_habitats(board, self.cards[c], habitat_filter)
             ]
             if not options:
                 return False
@@ -396,7 +402,7 @@ class WingspanGame:
             if card_id is None:
                 return False
         card = self.cards[card_id]
-        habitats = self._playable_habitats(board, card, habitat_filter)
+        habitats = self.playable_habitats(board, card, habitat_filter)
         if not habitats:
             return False
         options = [
