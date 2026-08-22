@@ -15,7 +15,6 @@ from .constants import (
     N_FOOD,
     Food,
     Habitat,
-    NestType,
 )
 
 #: The six faces of a birdfeeder die.  The last face yields both foods.

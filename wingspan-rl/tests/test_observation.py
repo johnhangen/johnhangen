@@ -4,7 +4,7 @@ import numpy as np
 
 from conftest import make_game, play_random
 
-from wingspan_rl.constants import Habitat, MAX_HAND, MAX_OPTIONS
+from wingspan_rl.constants import Habitat, MAX_OPTIONS
 from wingspan_rl.observation import (
     CARD_FEATURES,
     OBS_SIZE,

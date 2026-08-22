@@ -62,6 +62,16 @@ env = wingspan_rl.make_env(
 )
 ```
 
+It is also registered with gymnasium:
+
+```python
+import gymnasium as gym
+import wingspan_rl  # registers Wingspan-v0
+
+env = gym.make("Wingspan-v0", num_players=2, opponents="greedy")
+mask = env.unwrapped.action_masks()   # wrappers hide the helper
+```
+
 **Use the mask.** Only 3–10 of the 67 actions are legal at a typical decision,
 so unmasked PPO spends nearly all of its samples on rejected actions.
 

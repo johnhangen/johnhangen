@@ -11,8 +11,8 @@ look at ``game.pending``, pick a legal action id, call ``game.step``.
 from __future__ import annotations
 
 import random
-from dataclasses import dataclass, field
-from typing import Any, Dict, Generator, List, Optional, Sequence
+from dataclasses import dataclass
+from typing import Any, Generator, List, Optional, Sequence
 
 from .bonus import BONUS_CARDS, BonusCard
 from .cards import BirdCard, enumerate_payments, load_deck
@@ -37,7 +37,6 @@ from .constants import (
     SETUP_KEEP,
     STARTING_BONUS,
     STARTING_HAND,
-    TRAY_SIZE,
     Food,
     Habitat,
     NestType,

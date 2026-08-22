@@ -7,7 +7,6 @@ a one-line change.  Run::
 """
 
 import argparse
-import random
 import statistics
 
 from wingspan_rl.aec_env import WingspanAECEnv

@@ -1,4 +1,3 @@
-import random
 
 from conftest import make_game
 

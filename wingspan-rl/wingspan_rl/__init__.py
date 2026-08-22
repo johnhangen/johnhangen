@@ -67,6 +67,19 @@ __all__ = [
 ]
 
 
+def _register_gymnasium_envs() -> None:
+    """Register ``Wingspan-v0`` with gymnasium when it is installed."""
+    try:
+        from gymnasium.envs.registration import register, registry
+    except ImportError:  # pragma: no cover - gymnasium is optional
+        return
+    if "Wingspan-v0" not in registry:
+        register(id="Wingspan-v0", entry_point="wingspan_rl.env:WingspanEnv")
+
+
+_register_gymnasium_envs()
+
+
 def make_env(**kwargs):
     """Create the single-agent Gymnasium environment (requires gymnasium)."""
     from .env import WingspanEnv

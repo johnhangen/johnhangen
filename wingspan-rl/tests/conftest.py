@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import random
-from typing import Callable, Iterable, List, Optional, Sequence, Union
+from typing import Callable, List, Optional, Sequence, Union
 
 import pytest
 

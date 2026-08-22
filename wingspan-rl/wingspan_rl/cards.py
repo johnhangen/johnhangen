@@ -152,7 +152,8 @@ class BirdCard:
     def __str__(self) -> str:
         cost = " / ".join(str(c) for c in self.costs)
         habs = "".join(HABITAT_NAMES[h][0].upper() for h in self.habitats)
-        return f"{self.name} [{self.points}pt {habs} {cost} {NEST_NAMES[self.nest]}:{self.egg_capacity}]"
+        nest = NEST_NAMES[self.nest]
+        return f"{self.name} [{self.points}pt {habs} {cost} {nest}:{self.egg_capacity}]"
 
 
 def validate_card(card: BirdCard) -> None:

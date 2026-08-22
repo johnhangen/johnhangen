@@ -105,3 +105,13 @@ def test_gymnasium_env_checker_passes_in_penalize_mode():
 
     check_env(WingspanEnv(num_players=2, seed=0, illegal_action="penalize"),
               skip_render_check=True)
+
+
+def test_registered_with_gymnasium():
+    env = gym.make("Wingspan-v0", num_players=2, seed=0)
+    obs, info = env.reset(seed=0)
+    assert obs.shape == (OBS_SIZE,)
+    # wrappers hide the masking helper; reach through to the raw env
+    assert env.unwrapped.action_masks().sum() == len(info["legal_actions"])
+    env.step(info["legal_actions"][0])
+    env.close()
