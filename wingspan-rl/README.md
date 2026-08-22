@@ -47,10 +47,11 @@ know *why* they are being asked; they read the mask and pick.
 
 | | |
 |---|---|
-| observation | `Box(3320,)` float32, all features in `[0, 1]` |
+| observation | `Box(3320,)` float32, normalised (almost everything in `[0, 1]`) |
 | action | `Discrete(67)`, mostly illegal at any moment |
 | mask | `info["action_mask"]`, plus `env.action_masks()` for sb3-contrib |
 | reward | `dense` (default), `sparse`, `score`, `score_diff` |
+| episode | ~76 agent decisions in a two-player game (26 of them turns) |
 
 ```python
 env = wingspan_rl.make_env(
@@ -105,9 +106,11 @@ for agent in env.agent_iter():
 Sub-decision slots are contextual — slot 27 might be "pay 1 seed + 1 fruit",
 "take the fish die" or "lay the egg on the Wood Duck" — which is why
 `info["option_labels"]` and the option block of the observation exist. The
-observation encodes each live option's kind, its numeric value and, when it
-refers to a card, that card's features, so the meaning of a slot is always
-visible in the input rather than something the network has to memorise.
+observation encodes each live option's kind, its numeric value, and either the
+card it refers to or a short numeric descriptor of it — the food a payment
+spends, the food a die grants, which habitat is being chosen — so the meaning
+of a slot is always visible in the input rather than something the network has
+to memorise.
 
 Decisions with a single legal option are resolved automatically
 (`auto_resolve_single=True`); a deterministic policy plays an identical game
@@ -137,7 +140,8 @@ and power kind.
 ## Rules implemented
 
 * 4 rounds of 8/7/6/5 turns, first-player marker passing each round.
-* Setup: keep any of 5 cards, 1 food per card discarded, 1 of 2 bonus cards.
+* Setup: keep any of 5 cards, 1 food per card discarded (one token of each
+  type), 1 of 2 bonus cards.
 * Three habitat actions that strengthen as the row fills — food `1,1,2,2,3`,
   eggs `2,2,3,3,4`, cards `1,1,2,2,3` — plus the mat's exchange arrows
   (card→food, food→egg, egg→card).
