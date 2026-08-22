@@ -197,7 +197,23 @@ python examples/train_maskable_ppo.py --timesteps 400000 --opponents greedy
 ```
 
 The example wraps the env in sb3-contrib's `ActionMasker` and trains
-`MaskablePPO` (~900 env-steps/s on CPU with 8 parallel envs). Other examples:
+`MaskablePPO` (~880 env-steps/s on CPU with 8 parallel envs).
+
+A 400k-step run against `greedy` — about 10 minutes on CPU, no tuning — gets
+past the heuristic it trained on:
+
+```
+$ python examples/evaluate.py --model ppo_wingspan --games 100
+vs  random: 94/100 wins (0 shared), mean score 68.27
+vs  greedy: 55/100 wins (0 shared), mean score 64.83
+```
+
+That is a baseline to beat, not a strong agent: it is a single seed, a plain
+MLP over the flat observation, and a fixed scripted opponent. Self-play through
+the AEC env and a policy that attends to the card blocks are the obvious next
+steps.
+
+Other examples:
 
 * `examples/random_rollout.py` — drive the raw engine and render a game.
 * `examples/selfplay_aec.py` — self-play loop over the AEC env.
