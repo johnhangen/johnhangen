@@ -1,0 +1,4692 @@
+{
+ "birds": [
+  {
+   "id": 0,
+   "name": "Acorn Woodpecker",
+   "points": 1,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 43,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "wetland"
+    },
+    "text": "Play an additional bird in the wetland. Pay its normal cost."
+   }
+  },
+  {
+   "id": 1,
+   "name": "American Avocet",
+   "points": 7,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 72,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 2,
+   "name": "American Bittern",
+   "points": 6,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 2
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 4,
+   "wingspan": 107,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 3,
+   "name": "American Coot",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 61,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "tuck_from_hand",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "then": "food"
+    },
+    "text": "Tuck 1 card(s) from your hand behind this bird. If you do, gain 1 food from the supply."
+   }
+  },
+  {
+   "id": 4,
+   "name": "American Crow",
+   "points": 9,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2,
+     "seed": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 4,
+   "wingspan": 100,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 5,
+   "name": "American Pipit",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 27,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  },
+  {
+   "id": 6,
+   "name": "American Redstart",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    },
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 20,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 2,
+     "target": "any"
+    },
+    "text": "Lay 2 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 7,
+   "name": "American Three-toed Woodpecker",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 38,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_from_tray",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 face-up card(s) from the tray."
+   }
+  },
+  {
+   "id": 8,
+   "name": "American Wigeon",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 84,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  },
+  {
+   "id": 9,
+   "name": "Anna's Hummingbird",
+   "points": 5,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "wild": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 12,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 10,
+   "name": "Atlantic Puffin",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 2
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 53,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "fish",
+     "count": 1
+    },
+    "text": "Gain 1 fish from the supply."
+   }
+  },
+  {
+   "id": 11,
+   "name": "Bald Eagle",
+   "points": 5,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "rodent": 3,
+     "wild": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 1,
+   "wingspan": 203,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "gain_bonus_card",
+    "timing": "white",
+    "params": {},
+    "text": "Draw 2 bonus cards and keep 1."
+   }
+  },
+  {
+   "id": 12,
+   "name": "Baltimore Oriole",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 29,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Cache 1 fruit from the supply on this bird."
+   }
+  },
+  {
+   "id": 13,
+   "name": "Band-tailed Pigeon",
+   "points": 3,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fruit": 2
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 5,
+   "wingspan": 66,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "forest"
+    },
+    "text": "Play an additional bird in the forest. Pay its normal cost."
+   }
+  },
+  {
+   "id": 14,
+   "name": "Bank Swallow",
+   "points": 3,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 27,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 15,
+   "name": "Barred Owl",
+   "points": 3,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 4,
+   "wingspan": 107,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 40,
+     "reward": "cache",
+     "food": "rodent"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 40cm, cache it on this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 16,
+   "name": "Belted Kingfisher",
+   "points": 3,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 51,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 17,
+   "name": "Black Guillemot",
+   "points": 4,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 58,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "invertebrate",
+     "count": 2
+    },
+    "text": "Gain 2 invertebrate from the supply."
+   }
+  },
+  {
+   "id": 18,
+   "name": "Black Tern",
+   "points": 4,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 61,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "fish",
+     "count": 1
+    },
+    "text": "Gain 1 fish from the supply."
+   }
+  },
+  {
+   "id": 19,
+   "name": "Black-and-white Warbler",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 21,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 20,
+   "name": "Black-capped Chickadee",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 21,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 21,
+   "name": "Black-crowned Night-Heron",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 2,
+     "rodent": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 4,
+   "wingspan": 112,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "wetland"
+    },
+    "text": "Play an additional bird in the wetland. Pay its normal cost."
+   }
+  },
+  {
+   "id": 22,
+   "name": "Black-necked Stilt",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 71,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "seed",
+     "count": 1
+    },
+    "text": "Cache 1 seed from the supply on this bird."
+   }
+  },
+  {
+   "id": 23,
+   "name": "Blackburnian Warbler",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    },
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 24,
+   "name": "Blue-gray Gnatcatcher",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    },
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 16,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "seed",
+     "count": 1
+    },
+    "text": "Cache 1 seed from the supply on this bird."
+   }
+  },
+  {
+   "id": 25,
+   "name": "Blue-headed Vireo",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    },
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 23,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "all_players_draw",
+    "timing": "white",
+    "params": {},
+    "text": "Each player draws 1 card from the deck."
+   }
+  },
+  {
+   "id": 26,
+   "name": "Blue-winged Teal",
+   "points": 4,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 58,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "tuck_from_hand",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "then": "draw"
+    },
+    "text": "Tuck 1 card(s) from your hand behind this bird. If you do, draw 1 card."
+   }
+  },
+  {
+   "id": 27,
+   "name": "Bobolink",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 29,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "any",
+     "count": 1
+    },
+    "text": "Gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 28,
+   "name": "Boreal Chickadee",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "invertebrate",
+     "count": 2
+    },
+    "text": "Gain 2 invertebrate from the supply."
+   }
+  },
+  {
+   "id": 29,
+   "name": "Broad-winged Hawk",
+   "points": 4,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fish": 1,
+     "rodent": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 4,
+   "wingspan": 86,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 65,
+     "reward": "tuck",
+     "food": "fish"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 65cm, tuck it behind this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 30,
+   "name": "Brown Creeper",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 6,
+   "wingspan": 20,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  },
+  {
+   "id": 31,
+   "name": "Brown Thrasher",
+   "points": 3,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 32,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "all_players_draw",
+    "timing": "white",
+    "params": {},
+    "text": "Each player draws 1 card from the deck."
+   }
+  },
+  {
+   "id": 32,
+   "name": "Brown-headed Cowbird",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 36,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  },
+  {
+   "id": 33,
+   "name": "Bufflehead",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 5,
+   "wingspan": 55,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "fish",
+     "count": 2
+    },
+    "text": "Gain 2 fish from the supply."
+   }
+  },
+  {
+   "id": 34,
+   "name": "Bullock's Oriole",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 31,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 35,
+   "name": "Burrowing Owl",
+   "points": 8,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "rodent": 2,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 53,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 36,
+   "name": "Bushtit",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fruit": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 15,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 37,
+   "name": "California Quail",
+   "points": 3,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fruit": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 33,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 2,
+     "target": "any"
+    },
+    "text": "Lay 2 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 38,
+   "name": "Canada Jay",
+   "points": 3,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 45,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_from_tray",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 face-up card(s) from the tray."
+   }
+  },
+  {
+   "id": 39,
+   "name": "Cedar Waxwing",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 30,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "tuck_from_hand",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "then": "egg"
+    },
+    "text": "Tuck 1 card(s) from your hand behind this bird. If you do, lay 1 egg on this bird."
+   }
+  },
+  {
+   "id": 40,
+   "name": "Chimney Swift",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 30,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "forest"
+    },
+    "text": "Play an additional bird in the forest. Pay its normal cost."
+   }
+  },
+  {
+   "id": 41,
+   "name": "Chipping Sparrow",
+   "points": 2,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 21,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "white",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 42,
+   "name": "Common Gallinule",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 56,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "fish",
+     "count": 1
+    },
+    "text": "Gain 1 fish from the birdfeeder."
+   }
+  },
+  {
+   "id": 43,
+   "name": "Common Goldeneye",
+   "points": 1,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 4,
+   "wingspan": 79,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_from_tray",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 face-up card(s) from the tray."
+   }
+  },
+  {
+   "id": 44,
+   "name": "Common Loon",
+   "points": 4,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 4,
+   "wingspan": 132,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 45,
+   "name": "Common Murre",
+   "points": 5,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 66,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "fish",
+     "count": 1
+    },
+    "text": "Cache 1 fish from the supply on this bird."
+   }
+  },
+  {
+   "id": 46,
+   "name": "Common Nighthawk",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 6,
+   "wingspan": 61,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "invertebrate",
+     "count": 1
+    },
+    "text": "Gain 1 invertebrate from the birdfeeder."
+   }
+  },
+  {
+   "id": 47,
+   "name": "Common Raven",
+   "points": 7,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2,
+     "wild": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 3,
+   "wingspan": 117,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Cache 1 fruit from the supply on this bird."
+   }
+  },
+  {
+   "id": 48,
+   "name": "Common Redpoll",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "seed",
+     "count": 1
+    },
+    "text": "Gain 1 seed from the birdfeeder."
+   }
+  },
+  {
+   "id": 49,
+   "name": "Common Tern",
+   "points": 3,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 4,
+   "wingspan": 78,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 50,
+   "name": "Common Yellowthroat",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 17,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "on_opponent_action",
+    "timing": "pink",
+    "params": {
+     "trigger": "gain_food",
+     "effect": "gain_food_feeder"
+    },
+    "text": "When another player takes the 'gain food' action, gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 51,
+   "name": "Cooper's Hawk",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fish": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 4,
+   "wingspan": 79,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "on_opponent_action",
+    "timing": "pink",
+    "params": {
+     "trigger": "play_bird",
+     "effect": "lay_egg"
+    },
+    "text": "When another player plays a bird, lay 1 egg on this bird."
+   }
+  },
+  {
+   "id": 52,
+   "name": "Dark-eyed Junco",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 23,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 53,
+   "name": "Double-crested Cormorant",
+   "points": 3,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 3,
+   "wingspan": 132,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "fish",
+     "count": 1
+    },
+    "text": "Cache 1 fish from the supply on this bird."
+   }
+  },
+  {
+   "id": 54,
+   "name": "Eastern Bluebird",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 33,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_from_tray",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 face-up card(s) from the tray."
+   }
+  },
+  {
+   "id": 55,
+   "name": "Eastern Kingbird",
+   "points": 2,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 38,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "on_opponent_action",
+    "timing": "pink",
+    "params": {
+     "trigger": "lay_eggs",
+     "effect": "draw_card"
+    },
+    "text": "When another player takes the 'lay eggs' action, draw 1 card from the deck."
+   }
+  },
+  {
+   "id": 56,
+   "name": "Eastern Meadowlark",
+   "points": 5,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 36,
+   "predator": true,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 57,
+   "name": "Eastern Phoebe",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 27,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "all_players_gain_food",
+    "timing": "brown",
+    "params": {
+     "food": "invertebrate"
+    },
+    "text": "Each player gains 1 invertebrate from the supply."
+   }
+  },
+  {
+   "id": 58,
+   "name": "Eastern Screech-Owl",
+   "points": 7,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "rodent": 2
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 51,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 59,
+   "name": "European Starling",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 39,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "seed",
+     "count": 2
+    },
+    "text": "Gain 2 seed from the supply."
+   }
+  },
+  {
+   "id": 60,
+   "name": "Evening Grosbeak",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 36,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "birds_in_habitat",
+     "amount": 1,
+     "habitat": "wetland"
+    },
+    "text": "Game end: 1 point(s) per bird in your wetland."
+   }
+  },
+  {
+   "id": 61,
+   "name": "Field Sparrow",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 20,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 62,
+   "name": "Gambel's Quail",
+   "points": 4,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fruit": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 36,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "any",
+     "count": 1
+    },
+    "text": "Gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 63,
+   "name": "Golden Eagle",
+   "points": 8,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2,
+     "rodent": 1,
+     "wild": 2
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 2,
+   "wingspan": 200,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 50,
+     "reward": "tuck",
+     "food": "fish"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 50cm, tuck it behind this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 64,
+   "name": "Golden-crowned Kinglet",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 18,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "all_players_draw",
+    "timing": "white",
+    "params": {},
+    "text": "Each player draws 1 card from the deck."
+   }
+  },
+  {
+   "id": 65,
+   "name": "Grasshopper Sparrow",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    },
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 18,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 66,
+   "name": "Gray Catbird",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fruit": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 30,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs_each_bird",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "nest": "ground"
+    },
+    "text": "Lay 1 egg(s) on each bird with a ground nest."
+   }
+  },
+  {
+   "id": 67,
+   "name": "Great Blue Heron",
+   "points": 8,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "rodent": 2,
+     "wild": 2
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 2,
+   "wingspan": 183,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "rodent",
+     "count": 1
+    },
+    "text": "Gain 1 rodent from the supply."
+   }
+  },
+  {
+   "id": 68,
+   "name": "Great Crested Flycatcher",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 34,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 69,
+   "name": "Great Egret",
+   "points": 6,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "wild": 3
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 3,
+   "wingspan": 134,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "all_players_gain_food",
+    "timing": "brown",
+    "params": {
+     "food": "fish"
+    },
+    "text": "Each player gains 1 fish from the supply."
+   }
+  },
+  {
+   "id": 70,
+   "name": "Great Gray Owl",
+   "points": 4,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "rodent": 2,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 3,
+   "wingspan": 137,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 75,
+     "reward": "tuck",
+     "food": "rodent"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 75cm, tuck it behind this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 71,
+   "name": "Great Horned Owl",
+   "points": 4,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2,
+     "rodent": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 3,
+   "wingspan": 122,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 40,
+     "reward": "tuck",
+     "food": "fish"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 40cm, tuck it behind this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 72,
+   "name": "Greater Prairie-Chicken",
+   "points": 6,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fruit": 2
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 70,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "all_players_gain_food",
+    "timing": "brown",
+    "params": {
+     "food": "fruit"
+    },
+    "text": "Each player gains 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 73,
+   "name": "Greater Roadrunner",
+   "points": 5,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "rodent": 1,
+     "wild": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 48,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 75,
+     "reward": "tuck",
+     "food": "rodent"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 75cm, tuck it behind this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 74,
+   "name": "Green-winged Teal",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 58,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "invertebrate",
+     "count": 1
+    },
+    "text": "Gain 1 invertebrate from the supply."
+   }
+  },
+  {
+   "id": 75,
+   "name": "Hairy Woodpecker",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 38,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 76,
+   "name": "Hermit Thrush",
+   "points": 4,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 6,
+   "wingspan": 29,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 77,
+   "name": "Herring Gull",
+   "points": 5,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 4,
+   "wingspan": 144,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 78,
+   "name": "Hooded Merganser",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    },
+    {
+     "fish": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 61,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "discard_egg_for_food",
+    "timing": "brown",
+    "params": {
+     "food": "fish",
+     "count": 2
+    },
+    "text": "You may discard 1 egg to gain 2 fish."
+   }
+  },
+  {
+   "id": 79,
+   "name": "Horned Grebe",
+   "points": 5,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 2
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 47,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 80,
+   "name": "Horned Lark",
+   "points": 3,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 32,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "invertebrate",
+     "count": 1
+    },
+    "text": "Gain 1 invertebrate from the supply."
+   }
+  },
+  {
+   "id": 81,
+   "name": "House Finch",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    },
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 25,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 82,
+   "name": "House Sparrow",
+   "points": 5,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 24,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 83,
+   "name": "House Wren",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 15,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "fruit",
+     "count": 2
+    },
+    "text": "Gain 2 fruit from the supply."
+   }
+  },
+  {
+   "id": 84,
+   "name": "Inca Dove",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 6,
+   "wingspan": 29,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "on_opponent_action",
+    "timing": "pink",
+    "params": {
+     "trigger": "play_bird",
+     "effect": "lay_egg"
+    },
+    "text": "When another player plays a bird, lay 1 egg on this bird."
+   }
+  },
+  {
+   "id": 85,
+   "name": "Indigo Bunting",
+   "points": 1,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 21,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "birds_in_habitat",
+     "amount": 1,
+     "habitat": "grassland"
+    },
+    "text": "Game end: 1 point(s) per bird in your grassland."
+   }
+  },
+  {
+   "id": 86,
+   "name": "Lapland Longspur",
+   "points": 4,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 28,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 87,
+   "name": "Lark Bunting",
+   "points": 1,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 27,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "cached_food",
+     "amount": 1
+    },
+    "text": "Game end: 1 point(s) per food cached on this bird."
+   }
+  },
+  {
+   "id": 88,
+   "name": "Laughing Gull",
+   "points": 6,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 104,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "discard_egg_for_food",
+    "timing": "brown",
+    "params": {
+     "food": "fish",
+     "count": 2
+    },
+    "text": "You may discard 1 egg to gain 2 fish."
+   }
+  },
+  {
+   "id": 89,
+   "name": "Lazuli Bunting",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  },
+  {
+   "id": 90,
+   "name": "Least Tern",
+   "points": 4,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 51,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 91,
+   "name": "Lewis's Woodpecker",
+   "points": 4,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "fruit": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 52,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 92,
+   "name": "Loggerhead Shrike",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 32,
+   "predator": true,
+   "passerine": true,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 40,
+     "reward": "tuck",
+     "food": "rodent"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 40cm, tuck it behind this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 93,
+   "name": "Long-billed Curlew",
+   "points": 5,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 90,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "white",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 94,
+   "name": "Magnificent Frigatebird",
+   "points": 9,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 3,
+     "fish": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 2,
+   "wingspan": 217,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 95,
+   "name": "Marbled Godwit",
+   "points": 1,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 78,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "birds_in_habitat",
+     "amount": 1,
+     "habitat": "wetland"
+    },
+    "text": "Game end: 1 point(s) per bird in your wetland."
+   }
+  },
+  {
+   "id": 96,
+   "name": "Marsh Wren",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 15,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 97,
+   "name": "Merlin",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "rodent": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 61,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "grassland"
+    },
+    "text": "Play an additional bird in the grassland. Pay its normal cost."
+   }
+  },
+  {
+   "id": 98,
+   "name": "Northern Cardinal",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 31,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 99,
+   "name": "Northern Flicker",
+   "points": 5,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 51,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 100,
+   "name": "Northern Gannet",
+   "points": 6,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2,
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 2,
+   "wingspan": 180,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "any",
+     "count": 1
+    },
+    "text": "Gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 101,
+   "name": "Northern Mockingbird",
+   "points": 3,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 36,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "cached_food",
+     "amount": 1
+    },
+    "text": "Game end: 1 point(s) per food cached on this bird."
+   }
+  },
+  {
+   "id": 102,
+   "name": "Northern Pintail",
+   "points": 1,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 5,
+   "wingspan": 88,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_bonus_card",
+    "timing": "white",
+    "params": {},
+    "text": "Draw 2 bonus cards and keep 1."
+   }
+  },
+  {
+   "id": 103,
+   "name": "Northern Waterthrush",
+   "points": 1,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    },
+    {
+     "fish": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 23,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_bonus_card",
+    "timing": "white",
+    "params": {},
+    "text": "Draw 2 bonus cards and keep 1."
+   }
+  },
+  {
+   "id": 104,
+   "name": "Osprey",
+   "points": 6,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "rodent": 3,
+     "wild": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 2,
+   "wingspan": 163,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs_each_bird",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "nest": "cavity"
+    },
+    "text": "Lay 1 egg(s) on each bird with a cavity nest."
+   }
+  },
+  {
+   "id": 105,
+   "name": "Ovenbird",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 24,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 106,
+   "name": "Painted Bunting",
+   "points": 4,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 21,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 107,
+   "name": "Peregrine Falcon",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "rodent": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 4,
+   "wingspan": 104,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "rodent",
+     "count": 1
+    },
+    "text": "Gain 1 rodent from the supply."
+   }
+  },
+  {
+   "id": 108,
+   "name": "Pied-billed Grebe",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 45,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "wetland"
+    },
+    "text": "Play an additional bird in the wetland. Pay its normal cost."
+   }
+  },
+  {
+   "id": 109,
+   "name": "Pileated Woodpecker",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 74,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "invertebrate",
+     "count": 1
+    },
+    "text": "Gain 1 invertebrate from the birdfeeder."
+   }
+  },
+  {
+   "id": 110,
+   "name": "Pine Grosbeak",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 36,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 111,
+   "name": "Pine Siskin",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  },
+  {
+   "id": 112,
+   "name": "Prairie Falcon",
+   "points": 5,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "rodent": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 102,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 113,
+   "name": "Purple Finch",
+   "points": 1,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 25,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_bonus_card",
+    "timing": "white",
+    "params": {},
+    "text": "Draw 2 bonus cards and keep 1."
+   }
+  },
+  {
+   "id": 114,
+   "name": "Purple Martin",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 45,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "seed",
+     "count": 1
+    },
+    "text": "Cache 1 seed from the supply on this bird."
+   }
+  },
+  {
+   "id": 115,
+   "name": "Red Crossbill",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 27,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  },
+  {
+   "id": 116,
+   "name": "Red-bellied Woodpecker",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 5,
+   "wingspan": 42,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "all_players_draw",
+    "timing": "white",
+    "params": {},
+    "text": "Each player draws 1 card from the deck."
+   }
+  },
+  {
+   "id": 117,
+   "name": "Red-breasted Nuthatch",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 118,
+   "name": "Red-eyed Vireo",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 25,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 119,
+   "name": "Red-headed Woodpecker",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 42,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_bonus_card",
+    "timing": "white",
+    "params": {},
+    "text": "Draw 2 bonus cards and keep 1."
+   }
+  },
+  {
+   "id": 120,
+   "name": "Red-shouldered Hawk",
+   "points": 5,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "fish": 1,
+     "rodent": 2
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 5,
+   "wingspan": 100,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 50,
+     "reward": "cache",
+     "food": "rodent"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 50cm, cache it on this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 121,
+   "name": "Red-tailed Hawk",
+   "points": 5,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fish": 2,
+     "rodent": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 4,
+   "wingspan": 122,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "all_players_gain_food",
+    "timing": "brown",
+    "params": {
+     "food": "rodent"
+    },
+    "text": "Each player gains 1 rodent from the supply."
+   }
+  },
+  {
+   "id": 122,
+   "name": "Ring-billed Gull",
+   "points": 5,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 3,
+   "wingspan": 122,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "any",
+     "count": 1
+    },
+    "text": "Gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 123,
+   "name": "Ring-necked Pheasant",
+   "points": 3,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fruit": 2
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 4,
+   "wingspan": 79,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "forest"
+    },
+    "text": "Play an additional bird in the forest. Pay its normal cost."
+   }
+  },
+  {
+   "id": 124,
+   "name": "Rock Pigeon",
+   "points": 4,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 5,
+   "wingspan": 64,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "on_opponent_action",
+    "timing": "pink",
+    "params": {
+     "trigger": "lay_eggs",
+     "effect": "gain_food_feeder"
+    },
+    "text": "When another player takes the 'lay eggs' action, gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 125,
+   "name": "Rose-breasted Grosbeak",
+   "points": 1,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 6,
+   "wingspan": 32,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_bonus_card",
+    "timing": "white",
+    "params": {},
+    "text": "Draw 2 bonus cards and keep 1."
+   }
+  },
+  {
+   "id": 126,
+   "name": "Roseate Spoonbill",
+   "points": 4,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 3,
+   "wingspan": 127,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fish",
+     "count": 1
+    },
+    "text": "Gain 1 fish from the supply."
+   }
+  },
+  {
+   "id": 127,
+   "name": "Ruby-crowned Kinglet",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 18,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "birds_in_habitat",
+     "amount": 1,
+     "habitat": "forest"
+    },
+    "text": "Game end: 1 point(s) per bird in your forest."
+   }
+  },
+  {
+   "id": 128,
+   "name": "Ruby-throated Hummingbird",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 11,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "white",
+    "params": {
+     "count": 3
+    },
+    "text": "Draw 3 card(s)."
+   }
+  },
+  {
+   "id": 129,
+   "name": "Ruddy Duck",
+   "points": 6,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 2,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 47,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "invertebrate",
+     "count": 1
+    },
+    "text": "Gain 1 invertebrate from the supply."
+   }
+  },
+  {
+   "id": 130,
+   "name": "Rufous Hummingbird",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "fruit": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 11,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 131,
+   "name": "Savannah Sparrow",
+   "points": 2,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 20,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "any",
+     "count": 1
+    },
+    "text": "Gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 132,
+   "name": "Say's Phoebe",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 33,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "tuck_from_hand",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "then": "draw"
+    },
+    "text": "Tuck 1 card(s) from your hand behind this bird. If you do, draw 1 card."
+   }
+  },
+  {
+   "id": 133,
+   "name": "Scissor-tailed Flycatcher",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 38,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 134,
+   "name": "Sharp-shinned Hawk",
+   "points": 4,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 5,
+   "wingspan": 58,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "rodent",
+     "count": 1
+    },
+    "text": "Gain 1 rodent from the supply."
+   }
+  },
+  {
+   "id": 135,
+   "name": "Snow Bunting",
+   "points": 4,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 32,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 136,
+   "name": "Snow Goose",
+   "points": 6,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 3
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 3,
+   "wingspan": 137,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "any",
+     "count": 1
+    },
+    "text": "Gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 137,
+   "name": "Song Sparrow",
+   "points": 3,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 21,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "invertebrate",
+     "count": 1
+    },
+    "text": "Gain 1 invertebrate from the supply."
+   }
+  },
+  {
+   "id": 138,
+   "name": "Sora",
+   "points": 1,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 36,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs_each_bird",
+    "timing": "white",
+    "params": {
+     "count": 1,
+     "nest": "ground"
+    },
+    "text": "Lay 1 egg(s) on each bird with a ground nest."
+   }
+  },
+  {
+   "id": 139,
+   "name": "Spotted Sandpiper",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 37,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_from_tray",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 face-up card(s) from the tray."
+   }
+  },
+  {
+   "id": 140,
+   "name": "Spotted Towhee",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 27,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 141,
+   "name": "Steller's Jay",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 44,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 142,
+   "name": "Swainson's Hawk",
+   "points": 3,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "rodent": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 3,
+   "wingspan": 127,
+   "predator": true,
+   "passerine": false,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 40,
+     "reward": "tuck",
+     "food": "rodent"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 40cm, tuck it behind this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 143,
+   "name": "Tree Swallow",
+   "points": 4,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 35,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 144,
+   "name": "Trumpeter Swan",
+   "points": 6,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fish": 1,
+     "wild": 2
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 1,
+   "wingspan": 203,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "brown",
+    "params": {
+     "count": 1
+    },
+    "text": "Draw 1 card(s)."
+   }
+  },
+  {
+   "id": 145,
+   "name": "Tufted Titmouse",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 26,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_feeder",
+    "timing": "brown",
+    "params": {
+     "food": "any",
+     "count": 1
+    },
+    "text": "Gain 1 food from the birdfeeder."
+   }
+  },
+  {
+   "id": 146,
+   "name": "Tundra Swan",
+   "points": 6,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 2,
+     "wild": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 2,
+   "wingspan": 168,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "cache_food",
+    "timing": "brown",
+    "params": {
+     "food": "invertebrate",
+     "count": 1
+    },
+    "text": "Cache 1 invertebrate from the supply on this bird."
+   }
+  },
+  {
+   "id": 147,
+   "name": "Turkey Vulture",
+   "points": 8,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 3,
+     "fruit": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 3,
+   "wingspan": 173,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "birds_with_nest",
+     "amount": 1,
+     "nest": "ground"
+    },
+    "text": "Game end: 1 point(s) per bird with a ground nest."
+   }
+  },
+  {
+   "id": 148,
+   "name": "Veery",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 30,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "repeat_brown",
+    "timing": "brown",
+    "params": {},
+    "text": "Activate the 'when activated' power of another bird in this habitat."
+   }
+  },
+  {
+   "id": 149,
+   "name": "Verdin",
+   "points": 2,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 17,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "birds_with_nest",
+     "amount": 1,
+     "nest": "cavity"
+    },
+    "text": "Game end: 1 point(s) per bird with a cavity nest."
+   }
+  },
+  {
+   "id": 150,
+   "name": "Vermilion Flycatcher",
+   "points": 2,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 25,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "draw_cards",
+    "timing": "white",
+    "params": {
+     "count": 3
+    },
+    "text": "Draw 3 card(s)."
+   }
+  },
+  {
+   "id": 151,
+   "name": "Virginia Rail",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "wild": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 6,
+   "wingspan": 33,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "tuck_from_hand",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "then": null
+    },
+    "text": "Tuck 1 card(s) from your hand behind this bird."
+   }
+  },
+  {
+   "id": 152,
+   "name": "Warbling Vireo",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    },
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "on_opponent_action",
+    "timing": "pink",
+    "params": {
+     "trigger": "lay_eggs",
+     "effect": "draw_card"
+    },
+    "text": "When another player takes the 'lay eggs' action, draw 1 card from the deck."
+   }
+  },
+  {
+   "id": 153,
+   "name": "Western Grebe",
+   "points": 5,
+   "habitats": [
+    "grassland",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 3
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 61,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "any"
+    },
+    "text": "Lay 1 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 154,
+   "name": "Western Meadowlark",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 37,
+   "predator": true,
+   "passerine": true,
+   "power": {
+    "kind": "predator_hunt",
+    "timing": "brown",
+    "params": {
+     "threshold": 65,
+     "reward": "cache",
+     "food": "rodent"
+    },
+    "text": "Look at a card from the deck. If its wingspan is less than 65cm, cache it on this bird. Otherwise discard it."
+   }
+  },
+  {
+   "id": 155,
+   "name": "White Ibis",
+   "points": 5,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 2,
+     "wild": 1
+    }
+   ],
+   "nest": "platform",
+   "egg_capacity": 4,
+   "wingspan": 97,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "on_opponent_action",
+    "timing": "pink",
+    "params": {
+     "trigger": "gain_food",
+     "effect": "lay_egg"
+    },
+    "text": "When another player takes the 'gain food' action, lay 1 egg on this bird."
+   }
+  },
+  {
+   "id": 156,
+   "name": "White-breasted Nuthatch",
+   "points": 1,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "seed": 1
+    },
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 26,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_bonus_card",
+    "timing": "white",
+    "params": {},
+    "text": "Draw 2 bonus cards and keep 1."
+   }
+  },
+  {
+   "id": 157,
+   "name": "White-throated Sparrow",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    },
+    {
+     "fruit": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 6,
+   "wingspan": 23,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "white",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 158,
+   "name": "Wild Turkey",
+   "points": 3,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 1
+    }
+   ],
+   "nest": "star",
+   "egg_capacity": 4,
+   "wingspan": 125,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "forest"
+    },
+    "text": "Play an additional bird in the forest. Pay its normal cost."
+   }
+  },
+  {
+   "id": 159,
+   "name": "Willet",
+   "points": 3,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 1,
+     "wild": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 66,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "tuck_from_hand",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "then": "egg"
+    },
+    "text": "Tuck 1 card(s) from your hand behind this bird. If you do, lay 1 egg on this bird."
+   }
+  },
+  {
+   "id": 160,
+   "name": "Willow Flycatcher",
+   "points": 5,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 22,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 161,
+   "name": "Wilson's Snipe",
+   "points": 2,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "fish": 1
+    },
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "ground",
+   "egg_capacity": 5,
+   "wingspan": 44,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "white",
+    "params": {
+     "count": 2,
+     "target": "any"
+    },
+    "text": "Lay 2 egg(s) on any bird."
+   }
+  },
+  {
+   "id": 162,
+   "name": "Winter Wren",
+   "points": 1,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 14,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "wetland"
+    },
+    "text": "Play an additional bird in the wetland. Pay its normal cost."
+   }
+  },
+  {
+   "id": 163,
+   "name": "Wood Duck",
+   "points": 5,
+   "habitats": [
+    "wetland"
+   ],
+   "costs": [
+    {
+     "seed": 1,
+     "fish": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 5,
+   "wingspan": 73,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 164,
+   "name": "Wood Thrush",
+   "points": 5,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 33,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "none",
+    "timing": "none",
+    "params": {},
+    "text": ""
+   }
+  },
+  {
+   "id": 165,
+   "name": "Yellow Warbler",
+   "points": 3,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    },
+    {
+     "seed": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 20,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "gain_food_supply",
+    "timing": "brown",
+    "params": {
+     "food": "fruit",
+     "count": 1
+    },
+    "text": "Gain 1 fruit from the supply."
+   }
+  },
+  {
+   "id": 166,
+   "name": "Yellow-bellied Sapsucker",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "wetland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1,
+     "seed": 1
+    }
+   ],
+   "nest": "cavity",
+   "egg_capacity": 6,
+   "wingspan": 40,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "play_extra_bird",
+    "timing": "white",
+    "params": {
+     "habitat": "grassland"
+    },
+    "text": "Play an additional bird in the grassland. Pay its normal cost."
+   }
+  },
+  {
+   "id": 167,
+   "name": "Yellow-billed Cuckoo",
+   "points": 4,
+   "habitats": [
+    "forest"
+   ],
+   "costs": [
+    {
+     "invertebrate": 2
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 46,
+   "predator": false,
+   "passerine": false,
+   "power": {
+    "kind": "tuck_from_hand",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "then": "egg"
+    },
+    "text": "Tuck 1 card(s) from your hand behind this bird. If you do, lay 1 egg on this bird."
+   }
+  },
+  {
+   "id": 168,
+   "name": "Yellow-headed Blackbird",
+   "points": 1,
+   "habitats": [
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 5,
+   "wingspan": 42,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "end_points_per",
+    "timing": "game_end",
+    "params": {
+     "per": "birds_in_habitat",
+     "amount": 1,
+     "habitat": "wetland"
+    },
+    "text": "Game end: 1 point(s) per bird in your wetland."
+   }
+  },
+  {
+   "id": 169,
+   "name": "Yellow-rumped Warbler",
+   "points": 2,
+   "habitats": [
+    "forest",
+    "grassland"
+   ],
+   "costs": [
+    {
+     "invertebrate": 1
+    }
+   ],
+   "nest": "bowl",
+   "egg_capacity": 6,
+   "wingspan": 23,
+   "predator": false,
+   "passerine": true,
+   "power": {
+    "kind": "lay_eggs",
+    "timing": "brown",
+    "params": {
+     "count": 1,
+     "target": "this"
+    },
+    "text": "Lay 1 egg(s) on this bird."
+   }
+  }
+ ]
+}

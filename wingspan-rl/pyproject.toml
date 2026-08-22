@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wingspan-rl"
+version = "0.1.0"
+description = "A reinforcement-learning environment for the board game Wingspan"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.21"]
+
+[project.optional-dependencies]
+gym = ["gymnasium>=0.29"]
+multiagent = ["pettingzoo>=1.24"]
+dev = ["pytest>=7", "gymnasium>=0.29", "pettingzoo>=1.24"]
+
+[project.scripts]
+wingspan = "wingspan_rl.cli:main"
+
+[tool.setuptools]
+packages = ["wingspan_rl"]
+
+[tool.setuptools.package-data]
+wingspan_rl = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
